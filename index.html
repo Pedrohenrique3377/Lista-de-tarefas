@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha lista</title>
+    <link rel="stylesheet" href="codigo.css">
+    <!-- Ícones do Phosphor -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+</head>
+
+<body>
+    <div class="app-container">
+        <div>
+            <h1>Lista de tarefas</h1>
+            <p id="current-date">Sua lista de hoje</p>
+        </div>
+
+        <span class="counter" id="task-counter">O que vai realizar hoje?</span>
+
+        <form id="todo-form" class="todo-form">
+            <input type="text" id="todo-input" placeholder="Adicionar uma tarefa" autocomplete="off">
+            <!-- Corrigido: type="submit" -->
+            <button type="submit">  
+                <i class="ph ph-plus"></i>
+            </button>
+        </form>
+
+        <!-- Adicionado: A lista onde as tarefas do JavaScript serão inseridas -->
+        <ul id="task-list"></ul>
+
+        <div class="final-texto">
+            <img src="Assets/ITAU LOGO.jpg" alt="Logo Itaú" class="itau-logo">
+
+            <h3>App do Itaú</h3>
+        </div>
+    </div>
+
+    <!-- Corrigido: Tag correta para JavaScript colocada no final do body -->
+    <script src="scrips.js"></script>
+</body>
+
+</html>
