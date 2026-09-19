@@ -8,7 +8,7 @@ body {
     width: 100%;
     height: 100vh;
     /* Alterado de 100dvh para 100vh para maior compatibilidade */
-    background-color: rgb(243, 120, 5);
+    background-image: linear-gradient(#de6547, aqua);
     display: flex;
     justify-content: center;
     align-items: center;
